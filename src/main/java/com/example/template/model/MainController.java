@@ -1,4 +1,4 @@
-package com.example.template;
+package com.example.template.model;
 
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
