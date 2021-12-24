@@ -19,5 +19,5 @@ module com.example.template {
     requires java.annotation;
 
     exports com.example.template;
-    opens com.example.template to javafx.fxml, javafx.graphics, javafx.controls, spring.beans, spring.context, spring.core, spring.jdbc, spring.tx, spring.web, spring.webmvc, spring.security.core, spring.security.web, spring.security.config, spring.boot.autoconfigure,java.sql,java.xml,java.logging,java.desktop,java.annotation;
+    opens com.example.template to javafx.fxml, javafx.graphics, javafx.controls, spring.beans, spring.context, spring.core,  spring.web, spring.webmvc,  spring.boot.autoconfigure,java.sql,java.xml,java.logging,java.desktop,java.annotation;
 }
